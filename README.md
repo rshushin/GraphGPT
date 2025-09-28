@@ -1,8 +1,6 @@
 # GraphGPT
 ### Natural Language → Knowledge Graph
 
-![demo](demo.gif)
-
 *Note: this is a toy project I built out over a weekend. If you want to use knowledge graphs in your project, check out [GPT Index](https://github.com/jerryjliu/gpt_index).*
 
 GraphGPT converts unstructured natural language into a knowledge graph. Pass in the synopsis of your favorite movie, a passage from a confusing Wikipedia page, or transcript from a video to generate a graph visualization of entities and their relationships. 
