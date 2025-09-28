@@ -41,4 +41,5 @@ app.post('/api/extract', async (req, res) => {
 });
 
 const PORT = process.env.PORT || 8787;
+app.use(express.static('public'));
 app.listen(PORT, () => console.log(`API on http://localhost:${PORT}`));
